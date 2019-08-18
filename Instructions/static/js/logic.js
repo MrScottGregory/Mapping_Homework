@@ -20,7 +20,7 @@ let streetmap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.pn
 // CREATE FUNCTIONS FOR MARKER STYLING
 // -------------------------------------------
 
-// funcation that sets a radius based on quake magnitude
+// function that sets a radius based on quake magnitude
 function circleRadius(feature) {
   return (feature.properties.mag) * 5;
 }
