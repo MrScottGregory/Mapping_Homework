@@ -73,24 +73,6 @@ d3.json(queryUrl, function(data) {
     }
   })
   
-    // Define a baseMaps object to hold our base layers
-    // var baseMaps = {
-    //   "Street Map": streetmap
-    // };
-  
-    // Create overlay object to hold our overlay layer
-    // var overlayMaps = {
-    //   Earthquakes: quakes
-    // };
-  
   // add quakes layer to map  
-  quakes.addTo(myMap);
-
-    // Create a layer control
-    // Pass in our baseMaps and overlayMaps
-    // Add the layer control to the map
-  //   L.control.layers(baseMaps, overlayMaps, {
-  //     collapsed: false
-  //   }).addTo(myMap);
 })
   
