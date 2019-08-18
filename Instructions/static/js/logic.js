@@ -74,5 +74,6 @@ d3.json(queryUrl, function(data) {
   })
   
   // add quakes layer to map  
+  quakes.addTo(myMap);
 })
   
